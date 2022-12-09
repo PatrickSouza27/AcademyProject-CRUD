@@ -36,8 +36,8 @@
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.InicioLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.InicioLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -61,8 +61,8 @@
             // guna2Panel1
             // 
             this.guna2Panel1.Controls.Add(this.panel1);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
+            this.guna2Panel1.Controls.Add(this.InicioLabel1);
+            this.guna2Panel1.Controls.Add(this.InicioLabel2);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
@@ -114,27 +114,27 @@
             this.guna2ControlBox3.Size = new System.Drawing.Size(54, 35);
             this.guna2ControlBox3.TabIndex = 4;
             // 
-            // guna2HtmlLabel4
+            // InicioLabel1
             // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(289, 57);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(173, 47);
-            this.guna2HtmlLabel4.TabIndex = 6;
-            this.guna2HtmlLabel4.Text = "Hi {Nome},";
+            this.InicioLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.InicioLabel1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.InicioLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.InicioLabel1.Location = new System.Drawing.Point(289, 57);
+            this.InicioLabel1.Name = "InicioLabel1";
+            this.InicioLabel1.Size = new System.Drawing.Size(173, 47);
+            this.InicioLabel1.TabIndex = 6;
+            this.InicioLabel1.Text = "Hi {Nome},";
             // 
-            // guna2HtmlLabel3
+            // InicioLabel2
             // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(289, 95);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(347, 69);
-            this.guna2HtmlLabel3.TabIndex = 5;
-            this.guna2HtmlLabel3.Text = " Welcome Back";
+            this.InicioLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.InicioLabel2.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.InicioLabel2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.InicioLabel2.Location = new System.Drawing.Point(289, 95);
+            this.InicioLabel2.Name = "InicioLabel2";
+            this.InicioLabel2.Size = new System.Drawing.Size(347, 69);
+            this.InicioLabel2.TabIndex = 5;
+            this.InicioLabel2.Text = " Welcome Back";
             // 
             // guna2Panel2
             // 
@@ -169,6 +169,7 @@
             this.guna2Button5.Size = new System.Drawing.Size(253, 67);
             this.guna2Button5.TabIndex = 9;
             this.guna2Button5.Text = "Inicio Menu";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // label1
             // 
@@ -263,6 +264,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(253, 67);
             this.guna2Button1.TabIndex = 2;
             this.guna2Button1.Text = "Usuário";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2HtmlLabel1
             // 
@@ -284,6 +286,7 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "TelaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -314,8 +317,8 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Label label1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel InicioLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel InicioLabel2;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Panel panel1;
     }

@@ -16,7 +16,19 @@ namespace KittensSports
 
         private void gerenciarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new TelaUsuario().ShowDialog();
+            
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {          
+            InicioLabel1.Visible = false;
+            InicioLabel2.Visible = false;
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            InicioLabel1.Visible = true;
+            InicioLabel2.Visible = true;
         }
     }
 }
