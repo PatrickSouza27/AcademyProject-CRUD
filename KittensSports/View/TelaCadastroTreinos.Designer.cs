@@ -51,7 +51,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 33);
+            this.label1.Location = new System.Drawing.Point(345, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(172, 30);
             this.label1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // 
             // btnGravar
             // 
-            this.btnGravar.Location = new System.Drawing.Point(12, 318);
+            this.btnGravar.Location = new System.Drawing.Point(15, 350);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(75, 23);
             this.btnGravar.TabIndex = 1;
@@ -69,7 +69,7 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(99, 318);
+            this.btnAlterar.Location = new System.Drawing.Point(218, 350);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(75, 23);
             this.btnAlterar.TabIndex = 2;
@@ -79,7 +79,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(191, 318);
+            this.btnExcluir.Location = new System.Drawing.Point(403, 350);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(75, 23);
             this.btnExcluir.TabIndex = 3;
@@ -90,7 +90,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 82);
+            this.label2.Location = new System.Drawing.Point(161, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 15);
             this.label2.TabIndex = 4;
@@ -99,7 +99,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 126);
+            this.label3.Location = new System.Drawing.Point(191, 126);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 15);
             this.label3.TabIndex = 5;
@@ -108,7 +108,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 170);
+            this.label4.Location = new System.Drawing.Point(170, 170);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 15);
             this.label4.TabIndex = 6;
@@ -117,7 +117,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(15, 214);
+            this.label5.Location = new System.Drawing.Point(191, 221);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 15);
             this.label5.TabIndex = 7;
@@ -126,7 +126,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 268);
+            this.label6.Location = new System.Drawing.Point(173, 271);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 15);
             this.label6.TabIndex = 8;
@@ -136,35 +136,35 @@
             // 
             this.ttbTreino.Location = new System.Drawing.Point(15, 100);
             this.ttbTreino.Name = "ttbTreino";
-            this.ttbTreino.Size = new System.Drawing.Size(172, 23);
+            this.ttbTreino.Size = new System.Drawing.Size(428, 23);
             this.ttbTreino.TabIndex = 9;
             // 
             // ttbTempo
             // 
             this.ttbTempo.Location = new System.Drawing.Point(15, 144);
             this.ttbTempo.Name = "ttbTempo";
-            this.ttbTempo.Size = new System.Drawing.Size(172, 23);
+            this.ttbTempo.Size = new System.Drawing.Size(428, 23);
             this.ttbTempo.TabIndex = 10;
             // 
             // ttbVelocidade
             // 
             this.ttbVelocidade.Location = new System.Drawing.Point(12, 188);
             this.ttbVelocidade.Name = "ttbVelocidade";
-            this.ttbVelocidade.Size = new System.Drawing.Size(172, 23);
+            this.ttbVelocidade.Size = new System.Drawing.Size(431, 23);
             this.ttbVelocidade.TabIndex = 11;
             // 
             // ttbBPM
             // 
-            this.ttbBPM.Location = new System.Drawing.Point(12, 232);
+            this.ttbBPM.Location = new System.Drawing.Point(12, 239);
             this.ttbBPM.Name = "ttbBPM";
-            this.ttbBPM.Size = new System.Drawing.Size(172, 23);
+            this.ttbBPM.Size = new System.Drawing.Size(431, 23);
             this.ttbBPM.TabIndex = 12;
             // 
             // ttbInclinacao
             // 
             this.ttbInclinacao.Location = new System.Drawing.Point(12, 289);
             this.ttbInclinacao.Name = "ttbInclinacao";
-            this.ttbInclinacao.Size = new System.Drawing.Size(172, 23);
+            this.ttbInclinacao.Size = new System.Drawing.Size(431, 23);
             this.ttbInclinacao.TabIndex = 13;
             // 
             // menuStrip1
@@ -173,7 +173,7 @@
             this.consultarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(314, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(544, 24);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -188,7 +188,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(314, 351);
+            this.ClientSize = new System.Drawing.Size(544, 394);
             this.Controls.Add(this.ttbInclinacao);
             this.Controls.Add(this.ttbBPM);
             this.Controls.Add(this.ttbVelocidade);

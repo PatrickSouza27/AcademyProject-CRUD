@@ -43,30 +43,30 @@
             // 
             // ttbNome
             // 
-            this.ttbNome.Location = new System.Drawing.Point(12, 77);
+            this.ttbNome.Location = new System.Drawing.Point(14, 139);
             this.ttbNome.Name = "ttbNome";
-            this.ttbNome.Size = new System.Drawing.Size(258, 23);
+            this.ttbNome.Size = new System.Drawing.Size(561, 23);
             this.ttbNome.TabIndex = 0;
             // 
             // ttbEmail
             // 
-            this.ttbEmail.Location = new System.Drawing.Point(12, 135);
+            this.ttbEmail.Location = new System.Drawing.Point(14, 206);
             this.ttbEmail.Name = "ttbEmail";
-            this.ttbEmail.Size = new System.Drawing.Size(258, 23);
+            this.ttbEmail.Size = new System.Drawing.Size(561, 23);
             this.ttbEmail.TabIndex = 1;
             // 
             // ttbUsername
             // 
-            this.ttbUsername.Location = new System.Drawing.Point(12, 194);
+            this.ttbUsername.Location = new System.Drawing.Point(14, 286);
             this.ttbUsername.Name = "ttbUsername";
-            this.ttbUsername.Size = new System.Drawing.Size(258, 23);
+            this.ttbUsername.Size = new System.Drawing.Size(561, 23);
             this.ttbUsername.TabIndex = 2;
             // 
             // ttbSenha
             // 
-            this.ttbSenha.Location = new System.Drawing.Point(12, 252);
+            this.ttbSenha.Location = new System.Drawing.Point(12, 355);
             this.ttbSenha.Name = "ttbSenha";
-            this.ttbSenha.Size = new System.Drawing.Size(180, 23);
+            this.ttbSenha.Size = new System.Drawing.Size(563, 23);
             this.ttbSenha.TabIndex = 3;
             this.ttbSenha.UseSystemPasswordChar = true;
             // 
@@ -83,7 +83,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 58);
+            this.label2.Location = new System.Drawing.Point(218, 121);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 15);
             this.label2.TabIndex = 5;
@@ -92,7 +92,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 117);
+            this.label3.Location = new System.Drawing.Point(254, 188);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 15);
             this.label3.TabIndex = 6;
@@ -101,7 +101,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 176);
+            this.label4.Location = new System.Drawing.Point(254, 268);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 15);
             this.label4.TabIndex = 7;
@@ -110,7 +110,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 235);
+            this.label5.Location = new System.Drawing.Point(264, 337);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 15);
             this.label5.TabIndex = 8;
@@ -118,7 +118,7 @@
             // 
             // btnVer
             // 
-            this.btnVer.Location = new System.Drawing.Point(198, 252);
+            this.btnVer.Location = new System.Drawing.Point(389, 403);
             this.btnVer.Name = "btnVer";
             this.btnVer.Size = new System.Drawing.Size(72, 23);
             this.btnVer.TabIndex = 9;
@@ -128,7 +128,7 @@
             // 
             // btnGravar
             // 
-            this.btnGravar.Location = new System.Drawing.Point(195, 298);
+            this.btnGravar.Location = new System.Drawing.Point(500, 403);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(75, 23);
             this.btnGravar.TabIndex = 10;
@@ -140,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(289, 339);
+            this.ClientSize = new System.Drawing.Size(633, 466);
             this.Controls.Add(this.btnGravar);
             this.Controls.Add(this.btnVer);
             this.Controls.Add(this.label5);

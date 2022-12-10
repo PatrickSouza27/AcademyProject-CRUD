@@ -21,13 +21,13 @@ namespace KittensSports
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {          
-            InicioLabel1.Visible = false;
+            InicioLabel1.Text = "Screen User";
             InicioLabel2.Visible = false;
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            InicioLabel1.Visible = true;
+            InicioLabel1.Text = "Hi {Nome},";
             InicioLabel2.Visible = true;
         }
     }
