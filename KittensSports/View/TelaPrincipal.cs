@@ -34,6 +34,10 @@ namespace KittensSports
         private void guna2Button10_Click(object sender, EventArgs e)
         {
             guna2Panel3.Visible = false;
+            guna2GradientPanel1.Location = new Point(253, 137);
+            guna2Panel4.Location = new Point(606, 137);
+
+
         }
 
         private void guna2Button11_Click(object sender, EventArgs e)
