@@ -43,7 +43,9 @@
             this.ttbSenha = new System.Windows.Forms.TextBox();
             this.ttbUsuario = new System.Windows.Forms.TextBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1.SuspendLayout();
+            this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -58,6 +60,7 @@
             this.guna2Panel1.BorderColor = System.Drawing.Color.White;
             this.guna2Panel1.BorderRadius = 12;
             this.guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dot;
+            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel1.Controls.Add(this.label2);
             this.guna2Panel1.Controls.Add(this.guna2ToggleSwitch1);
             this.guna2Panel1.Controls.Add(this.label1);
@@ -65,7 +68,6 @@
             this.guna2Panel1.Controls.Add(this.pictureBox2);
             this.guna2Panel1.Controls.Add(this.pictureBox1);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel1.Controls.Add(this.ttbSenha);
             this.guna2Panel1.Controls.Add(this.ttbUsuario);
             this.guna2Panel1.Location = new System.Drawing.Point(134, 95);
@@ -115,6 +117,7 @@
             // 
             this.guna2Panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Panel3.BackgroundImage")));
             this.guna2Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel3.Location = new System.Drawing.Point(3, 2);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(355, 185);
@@ -164,14 +167,14 @@
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(134, 229);
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Times New Roman", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Beige;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(94, 152);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(84, 23);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(174, 33);
             this.guna2HtmlLabel1.TabIndex = 4;
-            this.guna2HtmlLabel1.Text = "User Login";
+            this.guna2HtmlLabel1.Text = "Kitterns Sports";
             // 
             // ttbSenha
             // 
@@ -214,6 +217,18 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(47, 28);
             this.guna2ControlBox1.TabIndex = 5;
             // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Beige;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(137, 229);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(77, 21);
+            this.guna2HtmlLabel2.TabIndex = 12;
+            this.guna2HtmlLabel2.Text = "User Login";
+            // 
             // TelaLogin
             // 
             this.AcceptButton = this.guna2Button1;
@@ -233,6 +248,8 @@
             this.Text = "TelaLogin";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            this.guna2Panel3.ResumeLayout(false);
+            this.guna2Panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -254,5 +271,6 @@
         private Label label1;
         private Label label2;
         private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
     }
 }
