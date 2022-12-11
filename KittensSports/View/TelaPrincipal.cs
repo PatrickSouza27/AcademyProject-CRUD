@@ -31,5 +31,19 @@ namespace KittensSports
             InicioLabel2.Visible = true;
         }
 
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+            guna2Panel3.Visible = false;
+        }
+
+        private void guna2Button11_Click(object sender, EventArgs e)
+        {
+            guna2GradientPanel1.Visible = false;
+        }
+
+        private void guna2Button12_Click(object sender, EventArgs e)
+        {
+            guna2Panel4.Visible = false;
+        }
     }
 }
