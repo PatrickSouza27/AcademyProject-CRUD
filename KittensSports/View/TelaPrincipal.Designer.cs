@@ -208,11 +208,11 @@
             this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button8.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button8.Image")));
-            this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button8.Location = new System.Drawing.Point(807, 86);
+            this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button8.Location = new System.Drawing.Point(796, 86);
             this.guna2Button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(38, 30);
+            this.guna2Button8.Size = new System.Drawing.Size(49, 30);
             this.guna2Button8.TabIndex = 12;
             // 
             // guna2Button6
@@ -225,11 +225,11 @@
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
-            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button6.Location = new System.Drawing.Point(807, 52);
+            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button6.Location = new System.Drawing.Point(796, 52);
             this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(38, 30);
+            this.guna2Button6.Size = new System.Drawing.Size(49, 30);
             this.guna2Button6.TabIndex = 10;
             // 
             // guna2Button7
@@ -633,7 +633,7 @@
             // 
             this.guna2NotificationPaint1.Alignment = Guna.UI2.WinForms.Enums.CustomContentAlignment.TopLeft;
             this.guna2NotificationPaint1.TargetControl = this.guna2Button7;
-            this.guna2NotificationPaint1.Text = "3";
+            this.guna2NotificationPaint1.Visible = false;
             // 
             // TelaPrincipal
             // 

@@ -56,10 +56,19 @@ namespace KittensSports
         }
         public void AcrescentaConta()
         {
-             if(Cont == 1)
+            if(Cont == 0)
+            {
+                guna2NotificationPaint1.Visible= false;
+            }
+            else
+            {
+                guna2NotificationPaint1.Visible = true;
+            }
+            if(Cont == 1)
             {
                 guna2NotificationPaint1.Text = "1";
-            }else if(Cont == 2)
+            }
+            else if(Cont == 2)
             {
                 guna2NotificationPaint1.Text = "2";
             }
@@ -72,7 +81,7 @@ namespace KittensSports
         private void guna2Button7_Click(object sender, EventArgs e)
         {
             Cont = 0;
-            guna2NotificationPaint1.Text = "0";
+            AcrescentaConta();
             guna2Panel3.Visible = true;
             guna2GradientPanel1.Visible = true;
             guna2Panel4.Visible = true;
