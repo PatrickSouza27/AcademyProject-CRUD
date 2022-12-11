@@ -68,6 +68,7 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2NotificationPaint1 = new Guna.UI2.WinForms.Guna2NotificationPaint(this.components);
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -241,12 +242,13 @@
             this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button7.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button7.Image")));
-            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.Location = new System.Drawing.Point(807, 17);
+            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button7.Location = new System.Drawing.Point(796, 17);
             this.guna2Button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(38, 30);
+            this.guna2Button7.Size = new System.Drawing.Size(49, 30);
             this.guna2Button7.TabIndex = 11;
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // guna2GradientPanel1
             // 
@@ -627,6 +629,12 @@
             this.guna2Button1.Text = "Usuário";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
+            // guna2NotificationPaint1
+            // 
+            this.guna2NotificationPaint1.Alignment = Guna.UI2.WinForms.Enums.CustomContentAlignment.TopLeft;
+            this.guna2NotificationPaint1.TargetControl = this.guna2Button7;
+            this.guna2NotificationPaint1.Text = "3";
+            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -699,5 +707,6 @@
         private Label label5;
         private Label label6;
         private PictureBox pictureBox3;
+        private Guna.UI2.WinForms.Guna2NotificationPaint guna2NotificationPaint1;
     }
 }
