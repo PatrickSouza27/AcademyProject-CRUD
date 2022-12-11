@@ -30,5 +30,6 @@ namespace KittensSports
             InicioLabel1.Text = "Hi {Nome},";
             InicioLabel2.Visible = true;
         }
+
     }
 }
