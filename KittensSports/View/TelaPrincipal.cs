@@ -22,6 +22,7 @@ namespace KittensSports
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            guna2DateTimePicker1.Value = DateTime.Now;
             guna2Panel5.Visible = true;
             InicioLabel1.Text = "Screen User";
             InicioLabel2.Visible = false;

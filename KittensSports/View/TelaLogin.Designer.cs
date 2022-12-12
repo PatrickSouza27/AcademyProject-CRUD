@@ -180,6 +180,7 @@
             this.guna2Button1.FillColor = System.Drawing.SystemColors.HotTrack;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2Button1.Location = new System.Drawing.Point(97, 375);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
