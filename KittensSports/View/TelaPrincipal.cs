@@ -12,7 +12,7 @@ namespace KittensSports
         public int Cont { get; set; }
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new TelaCadastroUsuario().ShowDialog();
+            new TelaCadastroEditUsuario().ShowDialog();
         }
 
         private void gerenciarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -109,6 +109,16 @@ namespace KittensSports
             guna2Panel4.Visible = true;
             guna2GradientPanel1.Location = new Point(253, 360);
             guna2Panel4.Location = new Point(606, 360);
+        }
+
+        private void guna2Button17_Click(object sender, EventArgs e)
+        {
+            new TelaCadastroEditUsuario().ShowDialog();
+        }
+
+        private void guna2Button16_Click(object sender, EventArgs e)
+        {
+            new TelaCadastroEditUsuario().ShowDialog();
         }
     }
 }

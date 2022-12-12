@@ -1,6 +1,6 @@
 ﻿namespace KittensSports.View
 {
-    partial class TelaCadastroUsuario
+    partial class TelaCadastroEditUsuario
     {
         /// <summary>
         /// Required designer variable.

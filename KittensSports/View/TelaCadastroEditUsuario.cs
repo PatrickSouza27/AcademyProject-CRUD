@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace KittensSports.View
 {
-    public partial class TelaCadastroUsuario : Form
+    public partial class TelaCadastroEditUsuario : Form
     {
-        public TelaCadastroUsuario()
+        public TelaCadastroEditUsuario()
         {
             InitializeComponent();
         }
