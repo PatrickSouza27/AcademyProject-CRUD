@@ -95,7 +95,18 @@ namespace KittensSports.View
         {
             Usuario usuario = new Usuario(ttbUsername.Text,
                 ttbSenha.Text, ttbNome.Text, ttbEmail.Text);
-            usuario.Alterar();
+            try
+            {
+                usuario.Alterar();
+                MessageBox.Show("Usuário Alterado com sucesso");
+                this.Close();
+                LimpaCampos();
+            }
+            catch
+            {
+                MessageBox.Show("Usuário Não gravado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
+            }
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
