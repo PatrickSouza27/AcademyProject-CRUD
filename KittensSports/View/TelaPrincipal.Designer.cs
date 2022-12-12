@@ -187,15 +187,16 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label9.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.label9.Location = new System.Drawing.Point(11, 34);
+            this.label9.Location = new System.Drawing.Point(11, 38);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(342, 97);
+            this.label9.Size = new System.Drawing.Size(340, 76);
             this.label9.TabIndex = 26;
-            this.label9.Text = resources.GetString("label9.Text");
+            this.label9.Text = "Essa Tela disponibiliza algumas opções.Você\r\nconsegue ver seus dados como, seu Id" +
+    "entificador,\r\nNome e E-mail. Já Nesse Bloco ainda possui duas\r\nopções de \"editar" +
+    "\" perfil e \"adicionar\" Usuário.";
             // 
             // guna2DateTimePicker1
             // 
@@ -228,7 +229,7 @@
             this.guna2Button17.HoverState.FillColor = System.Drawing.Color.Lime;
             this.guna2Button17.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button17.Image")));
             this.guna2Button17.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button17.Location = new System.Drawing.Point(259, 132);
+            this.guna2Button17.Location = new System.Drawing.Point(259, 125);
             this.guna2Button17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button17.Name = "guna2Button17";
             this.guna2Button17.Size = new System.Drawing.Size(96, 26);
@@ -250,7 +251,7 @@
             this.guna2Button16.HoverState.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2Button16.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button16.Image")));
             this.guna2Button16.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button16.Location = new System.Drawing.Point(177, 132);
+            this.guna2Button16.Location = new System.Drawing.Point(177, 126);
             this.guna2Button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button16.Name = "guna2Button16";
             this.guna2Button16.Size = new System.Drawing.Size(77, 26);
@@ -277,7 +278,6 @@
             // 
             this.guna2GradientPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
             this.guna2GradientPanel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel4.BorderThickness = 2;
             this.guna2GradientPanel4.Controls.Add(this.label8);
             this.guna2GradientPanel4.Location = new System.Drawing.Point(20, 42);
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
