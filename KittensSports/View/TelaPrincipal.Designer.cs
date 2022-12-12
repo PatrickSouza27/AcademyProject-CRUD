@@ -34,6 +34,8 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2Button17 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
@@ -42,7 +44,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.guna2Button19 = new Guna.UI2.WinForms.Guna2Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.guna2Button18 = new Guna.UI2.WinForms.Guna2Button();
+            this.Excluir = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -157,6 +159,10 @@
             // guna2Panel10
             // 
             this.guna2Panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.guna2Panel10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
+            this.guna2Panel10.BorderThickness = 2;
+            this.guna2Panel10.Controls.Add(this.label10);
+            this.guna2Panel10.Controls.Add(this.label9);
             this.guna2Panel10.Controls.Add(this.guna2DateTimePicker1);
             this.guna2Panel10.Controls.Add(this.guna2Button17);
             this.guna2Panel10.Controls.Add(this.guna2Button16);
@@ -164,6 +170,32 @@
             this.guna2Panel10.Name = "guna2Panel10";
             this.guna2Panel10.Size = new System.Drawing.Size(364, 160);
             this.guna2Panel10.TabIndex = 18;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
+            this.label10.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.label10.Location = new System.Drawing.Point(31, 7);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(76, 19);
+            this.label10.TabIndex = 26;
+            this.label10.Text = "Data Hoje";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
+            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.label9.Location = new System.Drawing.Point(11, 34);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(342, 97);
+            this.label9.TabIndex = 26;
+            this.label9.Text = resources.GetString("label9.Text");
             // 
             // guna2DateTimePicker1
             // 
@@ -196,7 +228,7 @@
             this.guna2Button17.HoverState.FillColor = System.Drawing.Color.Lime;
             this.guna2Button17.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button17.Image")));
             this.guna2Button17.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button17.Location = new System.Drawing.Point(265, 128);
+            this.guna2Button17.Location = new System.Drawing.Point(259, 132);
             this.guna2Button17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button17.Name = "guna2Button17";
             this.guna2Button17.Size = new System.Drawing.Size(96, 26);
@@ -218,7 +250,7 @@
             this.guna2Button16.HoverState.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2Button16.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button16.Image")));
             this.guna2Button16.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button16.Location = new System.Drawing.Point(182, 128);
+            this.guna2Button16.Location = new System.Drawing.Point(177, 132);
             this.guna2Button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button16.Name = "guna2Button16";
             this.guna2Button16.Size = new System.Drawing.Size(77, 26);
@@ -230,10 +262,12 @@
             // guna2Panel6
             // 
             this.guna2Panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.guna2Panel6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
+            this.guna2Panel6.BorderThickness = 2;
             this.guna2Panel6.Controls.Add(this.guna2GradientPanel4);
             this.guna2Panel6.Controls.Add(this.guna2Button19);
             this.guna2Panel6.Controls.Add(this.label7);
-            this.guna2Panel6.Controls.Add(this.guna2Button18);
+            this.guna2Panel6.Controls.Add(this.Excluir);
             this.guna2Panel6.Location = new System.Drawing.Point(17, 175);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(160, 182);
@@ -242,9 +276,8 @@
             // guna2GradientPanel4
             // 
             this.guna2GradientPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
-            this.guna2GradientPanel4.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientPanel4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2GradientPanel4.BorderThickness = 1;
+            this.guna2GradientPanel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel4.BorderThickness = 2;
             this.guna2GradientPanel4.Controls.Add(this.label8);
             this.guna2GradientPanel4.Location = new System.Drawing.Point(20, 42);
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
@@ -292,26 +325,27 @@
             this.label7.TabIndex = 25;
             this.label7.Text = "Atenção";
             // 
-            // guna2Button18
+            // Excluir
             // 
-            this.guna2Button18.BorderRadius = 10;
-            this.guna2Button18.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button18.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button18.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button18.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
-            this.guna2Button18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2Button18.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2Button18.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button18.Image")));
-            this.guna2Button18.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button18.Location = new System.Drawing.Point(40, 149);
-            this.guna2Button18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button18.Name = "guna2Button18";
-            this.guna2Button18.Size = new System.Drawing.Size(81, 26);
-            this.guna2Button18.TabIndex = 24;
-            this.guna2Button18.Text = "Excluir";
-            this.guna2Button18.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Excluir.BorderRadius = 10;
+            this.Excluir.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Excluir.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Excluir.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Excluir.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Excluir.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
+            this.Excluir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Excluir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Excluir.HoverState.FillColor = System.Drawing.Color.Red;
+            this.Excluir.Image = ((System.Drawing.Image)(resources.GetObject("Excluir.Image")));
+            this.Excluir.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Excluir.Location = new System.Drawing.Point(40, 149);
+            this.Excluir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Excluir.Name = "Excluir";
+            this.Excluir.Size = new System.Drawing.Size(81, 26);
+            this.Excluir.TabIndex = 24;
+            this.Excluir.Text = "Excluir";
+            this.Excluir.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Excluir.Click += new System.EventHandler(this.Excluir_Click);
             // 
             // guna2HtmlLabel4
             // 
@@ -1030,6 +1064,7 @@
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
             this.guna2Panel10.ResumeLayout(false);
+            this.guna2Panel10.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel6.PerformLayout();
             this.guna2GradientPanel4.ResumeLayout(false);
@@ -1117,11 +1152,13 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button13;
         private Guna.UI2.WinForms.Guna2Button guna2Button17;
         private Guna.UI2.WinForms.Guna2Button guna2Button16;
-        private Guna.UI2.WinForms.Guna2Button guna2Button18;
+        private Guna.UI2.WinForms.Guna2Button Excluir;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
         private Label label8;
         private Guna.UI2.WinForms.Guna2Button guna2Button19;
         private Label label7;
+        private Label label10;
+        private Label label9;
     }
 }

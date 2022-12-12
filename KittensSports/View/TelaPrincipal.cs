@@ -120,5 +120,10 @@ namespace KittensSports
         {
             new TelaCadastroEditUsuario().ShowDialog();
         }
+
+        private void Excluir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

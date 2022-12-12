@@ -1977,6 +1977,13 @@
         T/1fhc9kj+I7r4QAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Essa Tela disponibiliza algumas opções.Você
+consegue ver seus dados como, seu Identificador,
+Nome e E-mail. Já Nesse Bloco ainda possui duas
+opções de "editar" seu perfil e "adicionar"
+um novo Usuário.</value>
+  </data>
   <data name="guna2Button17.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -2522,7 +2529,7 @@
   <data name="guna2Button19.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADo9SURBVHhe7d0J
+        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADo9SURBVHhe7d0J
         eFxnfe9xxQlJk8tSyG2g3EB5iBmNLDuE2IQkkmztq2V5tySHFkJoga50oekGpiwFSqFAytZCoaHtjQrx
         zEi249ixvGiXrNW04dKUnZKlITQhTrzof99jvym2z9+2jjRz5rxnvt/n+Tzh6RJ0NOecn5bRTBERERER
         ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER
@@ -2774,7 +2781,7 @@
         IiIiIiIiIiIiIiIiIqJIVVT0/wGCZhD4nOTf+AAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="guna2Button18.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Excluir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEbUSURBVHhe7b0J
