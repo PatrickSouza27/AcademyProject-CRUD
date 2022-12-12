@@ -416,9 +416,9 @@
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(3, 1);
             this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(87, 23);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(136, 23);
             this.guna2HtmlLabel7.TabIndex = 16;
-            this.guna2HtmlLabel7.Text = "Patrick2789";
+            this.guna2HtmlLabel7.Text = "Identificador {User}";
             // 
             // guna2Button13
             // 
@@ -455,9 +455,9 @@
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(2, 2);
             this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(174, 23);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(104, 23);
             this.guna2HtmlLabel5.TabIndex = 14;
-            this.guna2HtmlLabel5.Text = "Patrick Aquino De Souza";
+            this.guna2HtmlLabel5.Text = "Nome Usuário";
             // 
             // guna2Button14
             // 
@@ -494,9 +494,9 @@
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(2, 1);
             this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(250, 23);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(145, 23);
             this.guna2HtmlLabel6.TabIndex = 15;
-            this.guna2HtmlLabel6.Text = "PatrickAquinoDeSouza@gmail.com";
+            this.guna2HtmlLabel6.Text = "Usuário@gmail.com";
             // 
             // guna2Button15
             // 
