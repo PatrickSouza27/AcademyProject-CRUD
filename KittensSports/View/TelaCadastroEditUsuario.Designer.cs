@@ -79,10 +79,9 @@
             this.guna2GradientPanel2.Controls.Add(this.ttbUsername);
             this.guna2GradientPanel2.Controls.Add(this.ttbNome);
             this.guna2GradientPanel2.Controls.Add(this.ttbEmail);
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(72, 85);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(63, 64);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(590, 550);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(516, 412);
             this.guna2GradientPanel2.TabIndex = 11;
             // 
             // guna2Button4
@@ -101,12 +100,14 @@
             this.guna2Button4.HoverState.FillColor = System.Drawing.Color.BlueViolet;
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button4.Location = new System.Drawing.Point(463, 486);
+            this.guna2Button4.Location = new System.Drawing.Point(405, 364);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(110, 35);
+            this.guna2Button4.Size = new System.Drawing.Size(96, 26);
             this.guna2Button4.TabIndex = 37;
             this.guna2Button4.Text = "Editar";
             this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2CirclePictureBox2
             // 
@@ -114,10 +115,11 @@
             this.guna2CirclePictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
             this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(210, 20);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(184, 15);
+            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(188, 157);
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(165, 119);
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox2.TabIndex = 36;
             this.guna2CirclePictureBox2.TabStop = false;
@@ -132,9 +134,10 @@
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.Location = new System.Drawing.Point(427, 417);
+            this.guna2Button3.Location = new System.Drawing.Point(374, 313);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(33, 29);
+            this.guna2Button3.Size = new System.Drawing.Size(29, 22);
             this.guna2Button3.TabIndex = 35;
             // 
             // guna2Button2
@@ -153,12 +156,14 @@
             this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button2.Location = new System.Drawing.Point(330, 486);
+            this.guna2Button2.Location = new System.Drawing.Point(289, 364);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(110, 35);
+            this.guna2Button2.Size = new System.Drawing.Size(96, 26);
             this.guna2Button2.TabIndex = 34;
             this.guna2Button2.Text = "Limpar";
             this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -176,9 +181,10 @@
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Cyan;
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button1.Location = new System.Drawing.Point(23, 486);
+            this.guna2Button1.Location = new System.Drawing.Point(20, 364);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(90, 35);
+            this.guna2Button1.Size = new System.Drawing.Size(79, 26);
             this.guna2Button1.TabIndex = 33;
             this.guna2Button1.Text = "Voltar";
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -200,9 +206,10 @@
             this.btnGravar.HoverState.FillColor = System.Drawing.Color.Lime;
             this.btnGravar.Image = ((System.Drawing.Image)(resources.GetObject("btnGravar.Image")));
             this.btnGravar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnGravar.Location = new System.Drawing.Point(463, 486);
+            this.btnGravar.Location = new System.Drawing.Point(405, 364);
+            this.btnGravar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGravar.Name = "btnGravar";
-            this.btnGravar.Size = new System.Drawing.Size(110, 35);
+            this.btnGravar.Size = new System.Drawing.Size(96, 26);
             this.btnGravar.TabIndex = 32;
             this.btnGravar.Text = "Adicionar";
             this.btnGravar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -213,9 +220,10 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(135, 391);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(118, 293);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(45, 22);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(37, 17);
             this.guna2HtmlLabel2.TabIndex = 31;
             this.guna2HtmlLabel2.Text = "Senha";
             // 
@@ -225,11 +233,10 @@
             this.ttbSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ttbSenha.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.ttbSenha.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ttbSenha.Location = new System.Drawing.Point(133, 413);
-            this.ttbSenha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ttbSenha.Location = new System.Drawing.Point(116, 310);
             this.ttbSenha.Name = "ttbSenha";
             this.ttbSenha.PlaceholderText = "Senha {User}";
-            this.ttbSenha.Size = new System.Drawing.Size(331, 34);
+            this.ttbSenha.Size = new System.Drawing.Size(290, 29);
             this.ttbSenha.TabIndex = 29;
             this.ttbSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -243,9 +250,10 @@
             this.guna2Button15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button15.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button15.Image")));
-            this.guna2Button15.Location = new System.Drawing.Point(427, 348);
+            this.guna2Button15.Location = new System.Drawing.Point(374, 261);
+            this.guna2Button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button15.Name = "guna2Button15";
-            this.guna2Button15.Size = new System.Drawing.Size(34, 32);
+            this.guna2Button15.Size = new System.Drawing.Size(30, 24);
             this.guna2Button15.TabIndex = 21;
             // 
             // guna2Button14
@@ -258,9 +266,10 @@
             this.guna2Button14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button14.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button14.Image")));
-            this.guna2Button14.Location = new System.Drawing.Point(423, 285);
+            this.guna2Button14.Location = new System.Drawing.Point(370, 214);
+            this.guna2Button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button14.Name = "guna2Button14";
-            this.guna2Button14.Size = new System.Drawing.Size(37, 29);
+            this.guna2Button14.Size = new System.Drawing.Size(32, 22);
             this.guna2Button14.TabIndex = 20;
             // 
             // guna2Button13
@@ -273,9 +282,10 @@
             this.guna2Button13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button13.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button13.Image")));
-            this.guna2Button13.Location = new System.Drawing.Point(428, 222);
+            this.guna2Button13.Location = new System.Drawing.Point(374, 166);
+            this.guna2Button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button13.Name = "guna2Button13";
-            this.guna2Button13.Size = new System.Drawing.Size(33, 29);
+            this.guna2Button13.Size = new System.Drawing.Size(29, 22);
             this.guna2Button13.TabIndex = 14;
             // 
             // guna2HtmlLabel4
@@ -283,9 +293,10 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(133, 196);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(116, 147);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(57, 22);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(45, 17);
             this.guna2HtmlLabel4.TabIndex = 22;
             this.guna2HtmlLabel4.Text = "Usuário";
             // 
@@ -294,9 +305,10 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(133, 323);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(116, 242);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(47, 22);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(37, 17);
             this.guna2HtmlLabel3.TabIndex = 21;
             this.guna2HtmlLabel3.Text = "E-mail";
             // 
@@ -305,9 +317,10 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(134, 260);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(117, 195);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(46, 22);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(37, 17);
             this.guna2HtmlLabel1.TabIndex = 20;
             this.guna2HtmlLabel1.Text = "Nome";
             // 
@@ -317,11 +330,10 @@
             this.ttbUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ttbUsername.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.ttbUsername.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ttbUsername.Location = new System.Drawing.Point(133, 219);
-            this.ttbUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ttbUsername.Location = new System.Drawing.Point(116, 164);
             this.ttbUsername.Name = "ttbUsername";
             this.ttbUsername.PlaceholderText = "Identificador {User}";
-            this.ttbUsername.Size = new System.Drawing.Size(331, 34);
+            this.ttbUsername.Size = new System.Drawing.Size(290, 29);
             this.ttbUsername.TabIndex = 26;
             this.ttbUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -331,11 +343,10 @@
             this.ttbNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ttbNome.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.ttbNome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ttbNome.Location = new System.Drawing.Point(133, 282);
-            this.ttbNome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ttbNome.Location = new System.Drawing.Point(116, 212);
             this.ttbNome.Name = "ttbNome";
             this.ttbNome.PlaceholderText = "Nome do Usuário";
-            this.ttbNome.Size = new System.Drawing.Size(331, 34);
+            this.ttbNome.Size = new System.Drawing.Size(290, 29);
             this.ttbNome.TabIndex = 27;
             this.ttbNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -345,11 +356,10 @@
             this.ttbEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ttbEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.ttbEmail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ttbEmail.Location = new System.Drawing.Point(133, 347);
-            this.ttbEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ttbEmail.Location = new System.Drawing.Point(116, 260);
             this.ttbEmail.Name = "ttbEmail";
             this.ttbEmail.PlaceholderText = "Usuário@gmail.com";
-            this.ttbEmail.Size = new System.Drawing.Size(331, 34);
+            this.ttbEmail.Size = new System.Drawing.Size(290, 29);
             this.ttbEmail.TabIndex = 28;
             this.ttbEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -358,9 +368,10 @@
             this.xxx.BackColor = System.Drawing.Color.Transparent;
             this.xxx.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.xxx.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.xxx.Location = new System.Drawing.Point(72, 31);
+            this.xxx.Location = new System.Drawing.Point(63, 23);
+            this.xxx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xxx.Name = "xxx";
-            this.xxx.Size = new System.Drawing.Size(206, 47);
+            this.xxx.Size = new System.Drawing.Size(171, 39);
             this.xxx.TabIndex = 12;
             this.xxx.Text = "Register user";
             // 
@@ -369,23 +380,23 @@
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(19, 675);
+            this.guna2Panel1.Size = new System.Drawing.Size(17, 506);
             this.guna2Panel1.TabIndex = 35;
             // 
             // TelaCadastroEditUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(733, 675);
+            this.ClientSize = new System.Drawing.Size(641, 506);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.xxx);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(500, 111);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "TelaCadastroEditUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaCadastroUsuario";

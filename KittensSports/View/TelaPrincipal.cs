@@ -128,9 +128,13 @@ namespace KittensSports
         private void Excluir_Click(object sender, EventArgs e)
         {
             UsuarioController usuario = new UsuarioController();
-            try { 
-            usuario.Excluir(TelaLogin.UsuarioLogado);
-            MessageBox.Show("Usuario Excluido com sucesso");
+            try {
+                DialogResult opc = MessageBox.Show("Atenção, ao confirmar seu Usuário será apagado, tem certeza que deseja fazer isso?", "Atenção -> Excluir Usuário", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                if (opc == DialogResult.OK)
+                {
+                    usuario.Excluir(TelaLogin.UsuarioLogado);
+                    MessageBox.Show("Usuario Excluido com sucesso");
+                }
             }
             catch
             {

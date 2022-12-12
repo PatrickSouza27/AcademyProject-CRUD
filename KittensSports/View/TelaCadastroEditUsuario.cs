@@ -14,9 +14,10 @@ namespace KittensSports.View
 {
     public partial class TelaCadastroEditUsuario : Form
     {
-
+        bool Edit;
         public TelaCadastroEditUsuario(bool edit)
         {
+            Edit = edit;
             InitializeComponent();
             if (edit)
             {
@@ -57,7 +58,13 @@ namespace KittensSports.View
                 MessageBox.Show("Erro ao gravar usuário. Tente novamente!");
             this.Close();
         }
-
+        private void LimpaCampos()
+        {
+            ttbUsername.Text = Edit ? ttbUsername.Text : null;
+            ttbNome.Clear();
+            ttbSenha.Clear();
+            ttbEmail.Clear();
+        }
         private bool TemEntradasValidas()
         {
             List<string> listaErros = new List<string>();
@@ -82,6 +89,18 @@ namespace KittensSports.View
                 return false;
             }
             return true;
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            Usuario usuario = new Usuario(ttbUsername.Text,
+                ttbSenha.Text, ttbNome.Text, ttbEmail.Text);
+            usuario.Alterar();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            LimpaCampos();
         }
     }
 }

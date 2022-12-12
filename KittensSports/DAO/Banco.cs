@@ -23,7 +23,7 @@ namespace KittensSports.DAO
 
     public class Banco
     {
-        private static string _strCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Usuario\Documents\TrabalhoFaculdade\KittensSports\DAO\banco.mdf;Integrated Security=True";
+        private static string _strCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\patrick.souza1\Documents\Fudeu\KittensSports\DAO\banco.mdf;Integrated Security=True";
         private static volatile Banco instance;
         private static object syncRoot = new Object();
         private static int utilizacoes = 0;

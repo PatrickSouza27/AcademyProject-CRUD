@@ -21,7 +21,10 @@ namespace KittensSports.Model
             NomeCompleto = nomeCompleto;
             Email = email;
         }
-
+        public bool Alterar()
+        {
+            return new UsuarioController().Alterar(this);
+        }
         public bool Gravar()
         {
             return new UsuarioController().Gravar(this);
