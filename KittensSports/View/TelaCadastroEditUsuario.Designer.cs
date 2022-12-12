@@ -30,15 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCadastroEditUsuario));
-            this.btnVer = new System.Windows.Forms.Button();
-            this.btnGravar = new System.Windows.Forms.Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button17 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGravar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ttbSenha = new System.Windows.Forms.TextBox();
             this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
@@ -56,28 +54,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnVer
-            // 
-            this.btnVer.Location = new System.Drawing.Point(487, 306);
-            this.btnVer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnVer.Name = "btnVer";
-            this.btnVer.Size = new System.Drawing.Size(82, 31);
-            this.btnVer.TabIndex = 9;
-            this.btnVer.Text = "Ver";
-            this.btnVer.UseVisualStyleBackColor = true;
-            this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
-            // 
-            // btnGravar
-            // 
-            this.btnGravar.Location = new System.Drawing.Point(487, 210);
-            this.btnGravar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnGravar.Name = "btnGravar";
-            this.btnGravar.Size = new System.Drawing.Size(86, 31);
-            this.btnGravar.TabIndex = 10;
-            this.btnGravar.Text = "Gravar";
-            this.btnGravar.UseVisualStyleBackColor = true;
-            this.btnGravar.Click += new System.EventHandler(this.btnGravar_Click);
-            // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.TargetControl = this;
@@ -89,10 +65,8 @@
             this.guna2GradientPanel2.Controls.Add(this.guna2Button3);
             this.guna2GradientPanel2.Controls.Add(this.guna2Button2);
             this.guna2GradientPanel2.Controls.Add(this.guna2Button1);
-            this.guna2GradientPanel2.Controls.Add(this.guna2Button17);
             this.guna2GradientPanel2.Controls.Add(this.btnGravar);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2GradientPanel2.Controls.Add(this.btnVer);
             this.guna2GradientPanel2.Controls.Add(this.ttbSenha);
             this.guna2GradientPanel2.Controls.Add(this.guna2Button15);
             this.guna2GradientPanel2.Controls.Add(this.guna2Button14);
@@ -185,28 +159,29 @@
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2Button17
+            // btnGravar
             // 
-            this.guna2Button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
-            this.guna2Button17.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.guna2Button17.BorderRadius = 10;
-            this.guna2Button17.BorderThickness = 1;
-            this.guna2Button17.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button17.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button17.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button17.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button17.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.guna2Button17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2Button17.HoverState.FillColor = System.Drawing.Color.Lime;
-            this.guna2Button17.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button17.Image")));
-            this.guna2Button17.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button17.Location = new System.Drawing.Point(463, 486);
-            this.guna2Button17.Name = "guna2Button17";
-            this.guna2Button17.Size = new System.Drawing.Size(110, 35);
-            this.guna2Button17.TabIndex = 32;
-            this.guna2Button17.Text = "Adicionar";
-            this.guna2Button17.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGravar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
+            this.btnGravar.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnGravar.BorderRadius = 10;
+            this.btnGravar.BorderThickness = 1;
+            this.btnGravar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGravar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGravar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGravar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGravar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnGravar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnGravar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnGravar.HoverState.FillColor = System.Drawing.Color.Lime;
+            this.btnGravar.Image = ((System.Drawing.Image)(resources.GetObject("btnGravar.Image")));
+            this.btnGravar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnGravar.Location = new System.Drawing.Point(463, 486);
+            this.btnGravar.Name = "btnGravar";
+            this.btnGravar.Size = new System.Drawing.Size(110, 35);
+            this.btnGravar.TabIndex = 32;
+            this.btnGravar.Text = "Adicionar";
+            this.btnGravar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGravar.Click += new System.EventHandler(this.btnGravar_Click_1);
             // 
             // guna2HtmlLabel2
             // 
@@ -398,8 +373,6 @@
         }
 
         #endregion
-        private Button btnVer;
-        private Button btnGravar;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         public Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
@@ -413,7 +386,7 @@
         private TextBox ttbNome;
         private TextBox ttbEmail;
         public Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button17;
+        private Guna.UI2.WinForms.Guna2Button btnGravar;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         public Guna.UI2.WinForms.Guna2HtmlLabel InicioLabel1;

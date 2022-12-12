@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace KittensSports.View
 {
@@ -18,37 +19,13 @@ namespace KittensSports.View
             InitializeComponent();
         }
 
-        private void btnVer_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-            if(ttbSenha.UseSystemPasswordChar==true)
-            {
-                ttbSenha.UseSystemPasswordChar=false;
-                btnVer.Text = "Ocultar";
-            }
-            else
-            {
-                ttbSenha.UseSystemPasswordChar=true;
-                btnVer.Text = "Ver";
-            }
+            this.Close();
         }
 
-        private void btnGravar_Click(object sender, EventArgs e)
+        private void btnGravar_Click_1(object sender, EventArgs e)
         {
-
-            string email = ttbEmail.Text;
-
-            bool valor = email.Contains("@") && email.Contains(".com");
-
-            if (valor == true)
-            {
-              
-            }
-
-            else
-            {
-                MessageBox.Show("Digite um E-mail valido ");
-            }
-
             if (TemEntradasValidas())
                 return;
 
@@ -67,17 +44,18 @@ namespace KittensSports.View
         private bool TemEntradasValidas()
         {
             List<string> listaErros = new List<string>();
+            bool valor = ttbEmail.Text.Contains("@") && ttbEmail.Text.Contains(".com");
 
             if (string.IsNullOrEmpty(ttbNome.Text))
                 listaErros.Add("\nPreencha o campo Nome!");
-            if (string.IsNullOrEmpty(ttbEmail.Text))
-                listaErros.Add("\nPreencha o campo E-Mail!");
+            if (string.IsNullOrEmpty(ttbEmail.Text) || valor == false)
+                listaErros.Add("\nEmail Invalido!!");
             if (string.IsNullOrEmpty(ttbSenha.Text))
                 listaErros.Add("\nPreencha o campo Senha!");
-            if(string.IsNullOrEmpty(ttbUsername.Text))
+            if (string.IsNullOrEmpty(ttbUsername.Text))
                 listaErros.Add("\nPreencha o campo Username!");
 
-            if(listaErros.Count > 0)
+            if (listaErros.Count > 0)
             {
                 string erros = "";
                 foreach (var item in listaErros)
@@ -87,11 +65,6 @@ namespace KittensSports.View
                 return false;
             }
             return true;
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
