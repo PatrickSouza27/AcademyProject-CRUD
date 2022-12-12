@@ -90,18 +90,9 @@ namespace KittensSports
             {
                 guna2NotificationPaint1.Visible = true;
             }
-            if(Cont == 1)
-            {
-                guna2NotificationPaint1.Text = "1";
-            }
-            else if(Cont == 2)
-            {
-                guna2NotificationPaint1.Text = "2";
-            }
-            else
-            {
-                guna2NotificationPaint1.Text = "3";
-            }
+            
+                guna2NotificationPaint1.Text = Cont.ToString();
+            
             if(Cont == 3)
             {
                 guna2HtmlLabel8.Visible= true;
