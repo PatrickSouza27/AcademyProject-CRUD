@@ -1,4 +1,5 @@
 using Guna.UI2.WinForms;
+using KittensSports.Controller;
 using KittensSports.View;
 
 namespace KittensSports
@@ -12,7 +13,7 @@ namespace KittensSports
         public int Cont { get; set; }
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new TelaCadastroEditUsuario().ShowDialog();
+            new TelaCadastroEditUsuario(false).ShowDialog();
         }
 
         private void gerenciarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -116,16 +117,26 @@ namespace KittensSports
 
         private void guna2Button17_Click(object sender, EventArgs e)
         {
-            new TelaCadastroEditUsuario().ShowDialog();
+            new TelaCadastroEditUsuario(false).ShowDialog();
         }
 
         private void guna2Button16_Click(object sender, EventArgs e)
         {
-            new TelaCadastroEditUsuario().ShowDialog();  
+            new TelaCadastroEditUsuario(true).ShowDialog();  
         }
 
         private void Excluir_Click(object sender, EventArgs e)
         {
+            UsuarioController usuario = new UsuarioController();
+            try { 
+            usuario.Excluir(TelaLogin.UsuarioLogado);
+            MessageBox.Show("Usuario Excluido com sucesso");
+            }
+            catch
+            {
+                MessageBox.Show("Error ao Excluir Usuario");
+            }
+            this.Close();
 
         }
 

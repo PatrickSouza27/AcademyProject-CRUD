@@ -14,9 +14,11 @@ namespace KittensSports.View
 {
     public partial class TelaCadastroEditUsuario : Form
     {
-        public TelaCadastroEditUsuario()
+
+        public TelaCadastroEditUsuario(bool edit)
         {
             InitializeComponent();
+            xxx.Text = edit == true ? "banana" : "Maça"; 
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

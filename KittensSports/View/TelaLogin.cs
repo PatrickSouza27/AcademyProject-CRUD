@@ -17,6 +17,7 @@ namespace KittensSports.View
         {
             InitializeComponent();
         }
+        public static string UsuarioLogado { get; set; }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
@@ -48,6 +49,7 @@ namespace KittensSports.View
             {
                 //Validar usuário e senha com a base de dados
                 DataTable dt = new UsuarioController().BuscaLogin(ttbUsuario.Text, ttbSenha.Text);
+                UsuarioLogado = ttbUsuario.Text;
                 if (dt.Rows.Count > 0)
                     return true;
             }

@@ -52,13 +52,12 @@ namespace KittensSports.Controller
                     "@nik", obj.Username, "@senha", obj.Password, "@ncp", obj.NomeCompleto, "@email", obj.Email);
             }
         }
-
-        public bool Excluir(int id)
+        public bool Excluir(string id)
         {
             BancoInstance banco;
             using (banco = new BancoInstance())
             {
-                return banco.Banco.ExecuteNonQuery(@"delete from Usuario where Id = @param",
+                return banco.Banco.ExecuteNonQuery(@"delete from Usuario where username = @param",
                     "@param", id);
             }
         }
