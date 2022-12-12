@@ -128,5 +128,35 @@ namespace KittensSports
         {
 
         }
+
+        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
