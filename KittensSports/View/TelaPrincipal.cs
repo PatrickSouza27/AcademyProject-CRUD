@@ -22,6 +22,7 @@ namespace KittensSports
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            
             guna2HtmlLabel8.Visible = false;
             guna2Panel5.Location = new Point(253, 127);
             guna2Panel5.Size = new Size(571, 387);
@@ -36,6 +37,8 @@ namespace KittensSports
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
+            Cont = 0;
+            guna2HtmlLabel8.Visible = false;
             guna2Panel5.Visible= false;
             InicioLabel1.Text = "Hi {Nome},";
             InicioLabel2.Text = " Welcome Back";
