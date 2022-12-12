@@ -48,7 +48,7 @@ namespace KittensSports.Controller
             using (banco = new BancoInstance())
             {
                 return banco.Banco.ExecuteNonQuery(
-                    @"update Pessoa set username=@nik, Senha=@senha, fullName=@ncp, email=@email where ",
+                    @"update usuario set Senha=@senha, fullName=@ncp, email=@email where username=@nik",
                     "@nik", obj.Username, "@senha", obj.Password, "@ncp", obj.NomeCompleto, "@email", obj.Email);
             }
         }
