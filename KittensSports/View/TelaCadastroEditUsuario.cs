@@ -44,19 +44,22 @@ namespace KittensSports.View
 
         private void btnGravar_Click_1(object sender, EventArgs e)
         {
-            if (TemEntradasValidas())
+            if (!TemEntradasValidas())
                 return;
 
-            //Montar o objeto para gravação
             Usuario objUsuario = new Usuario(ttbUsername.Text,
                 ttbSenha.Text, ttbNome.Text, ttbEmail.Text);
-
-            //Gravar objeto no banco
-            if (objUsuario.Gravar())
+            try
+            {
+                objUsuario.Gravar();
                 MessageBox.Show("Registro inserido com sucesso!");
-            else
+                LimpaCampos();
+                this.Close();
+            }
+            catch
+            {
                 MessageBox.Show("Erro ao gravar usuário. Tente novamente!");
-            this.Close();
+            }
         }
         private void LimpaCampos()
         {

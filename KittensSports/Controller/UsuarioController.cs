@@ -12,7 +12,7 @@ namespace KittensSports.Controller
             using(banco = new BancoInstance())
             {
                 return banco.Banco.ExecuteNonQuery(
-                    @"insert into usuario (username, senha, fullName, email) 
+                    @"insert into usuario (username, senha, fullName, email)
                         values (@un, @senha, @nome, @mail)",
                     "@un", obj.Username, "@senha", obj.Password,
                     "@nome", obj.NomeCompleto, "@mail", obj.Email);

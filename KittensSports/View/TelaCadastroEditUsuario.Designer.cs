@@ -100,7 +100,7 @@
             this.guna2Button4.HoverState.FillColor = System.Drawing.Color.BlueViolet;
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button4.Location = new System.Drawing.Point(405, 364);
+            this.guna2Button4.Location = new System.Drawing.Point(366, 364);
             this.guna2Button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(96, 26);
@@ -156,7 +156,7 @@
             this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button2.Location = new System.Drawing.Point(289, 364);
+            this.guna2Button2.Location = new System.Drawing.Point(264, 364);
             this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(96, 26);
@@ -181,7 +181,7 @@
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Cyan;
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button1.Location = new System.Drawing.Point(20, 364);
+            this.guna2Button1.Location = new System.Drawing.Point(40, 364);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(79, 26);
@@ -206,7 +206,7 @@
             this.btnGravar.HoverState.FillColor = System.Drawing.Color.Lime;
             this.btnGravar.Image = ((System.Drawing.Image)(resources.GetObject("btnGravar.Image")));
             this.btnGravar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnGravar.Location = new System.Drawing.Point(405, 364);
+            this.btnGravar.Location = new System.Drawing.Point(366, 364);
             this.btnGravar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(96, 26);
@@ -368,7 +368,7 @@
             this.xxx.BackColor = System.Drawing.Color.Transparent;
             this.xxx.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.xxx.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.xxx.Location = new System.Drawing.Point(63, 23);
+            this.xxx.Location = new System.Drawing.Point(63, 20);
             this.xxx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xxx.Name = "xxx";
             this.xxx.Size = new System.Drawing.Size(171, 39);
