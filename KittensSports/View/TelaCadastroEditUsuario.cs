@@ -18,7 +18,22 @@ namespace KittensSports.View
         public TelaCadastroEditUsuario(bool edit)
         {
             InitializeComponent();
-            xxx.Text = edit == true ? "banana" : "Maça"; 
+            if (edit)
+            {
+                xxx.Text = "Edit {User} screen";
+                guna2Button4.Visible = true;
+                btnGravar.Visible = false;
+                ttbUsername.Text = TelaLogin.UsuarioLogado;
+                ttbUsername.Enabled = false;
+            }
+            else
+            {
+                ttbUsername.Text = null;
+                ttbUsername.Enabled = true;
+                xxx.Text =  "Register {User}";
+                guna2Button4.Visible = false;
+                btnGravar.Visible = true;
+            }
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
