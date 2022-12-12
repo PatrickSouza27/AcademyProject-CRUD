@@ -48,7 +48,7 @@
             this.ttbUsername = new System.Windows.Forms.TextBox();
             this.ttbNome = new System.Windows.Forms.TextBox();
             this.ttbEmail = new System.Windows.Forms.TextBox();
-            this.InicioLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.xxx = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
@@ -328,16 +328,16 @@
             this.ttbEmail.TabIndex = 28;
             this.ttbEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // InicioLabel1
+            // xxx
             // 
-            this.InicioLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.InicioLabel1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.InicioLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.InicioLabel1.Location = new System.Drawing.Point(72, 31);
-            this.InicioLabel1.Name = "InicioLabel1";
-            this.InicioLabel1.Size = new System.Drawing.Size(269, 47);
-            this.InicioLabel1.TabIndex = 12;
-            this.InicioLabel1.Text = "Cadastro Usuário";
+            this.xxx.BackColor = System.Drawing.Color.Transparent;
+            this.xxx.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.xxx.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.xxx.Location = new System.Drawing.Point(72, 31);
+            this.xxx.Name = "xxx";
+            this.xxx.Size = new System.Drawing.Size(206, 47);
+            this.xxx.TabIndex = 12;
+            this.xxx.Text = "Register user";
             // 
             // guna2Panel1
             // 
@@ -356,7 +356,7 @@
             this.ClientSize = new System.Drawing.Size(733, 675);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2GradientPanel2);
-            this.Controls.Add(this.InicioLabel1);
+            this.Controls.Add(this.xxx);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(500, 111);
@@ -389,7 +389,7 @@
         private Guna.UI2.WinForms.Guna2Button btnGravar;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        public Guna.UI2.WinForms.Guna2HtmlLabel InicioLabel1;
+        public Guna.UI2.WinForms.Guna2HtmlLabel xxx;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         public Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;

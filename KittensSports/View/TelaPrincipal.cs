@@ -121,7 +121,7 @@ namespace KittensSports
 
         private void guna2Button16_Click(object sender, EventArgs e)
         {
-            new TelaCadastroEditUsuario().ShowDialog();
+            new TelaCadastroEditUsuario().ShowDialog();  
         }
 
         private void Excluir_Click(object sender, EventArgs e)
