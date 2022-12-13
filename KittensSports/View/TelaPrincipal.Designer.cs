@@ -170,7 +170,7 @@
             this.guna2Button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
             this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button6.Location = new System.Drawing.Point(911, 59);
+            this.guna2Button6.Location = new System.Drawing.Point(911, 70);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(56, 40);
             this.guna2Button6.TabIndex = 10;

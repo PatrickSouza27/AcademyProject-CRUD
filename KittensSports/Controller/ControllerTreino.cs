@@ -1,6 +1,7 @@
 ﻿using KittensSports.DAO;
 using KittensSports.Model;
 using System.Data;
+using KittensSports.View;
 
 namespace KittensSports.Controller
 {
@@ -12,10 +13,10 @@ namespace KittensSports.Controller
             using (banco = new BancoInstance())
             {
                 return banco.Banco.ExecuteNonQuery(
-                    @"insert into Treino (Nome_Treino, Tempo, Velocidade, BPM,Inclinação) 
-                        values (@tcp, @temp, @velo, @bpm, @incli)",
+                    @"insert into Treino (Nome_Treino, Tempo, Velocidade, BPM,Inclinação, FK_usuario, DiaGrupo) 
+                        values (@tcp, @temp, @velo, @bpm, @incli, @user, @day)",
                     "tcp", obj.NomeTreino, "@temp", obj.Tempo,
-                    "@velo", obj.Velocidade, "@bpm", obj.BPM,"@incli",obj.Inclinacao);
+                    "@velo", obj.Velocidade, "@bpm", obj.BPM,"@incli",obj.Inclinacao, "@user", TelaLogin.UsuarioLogado, "@day", obj.DiaTreino);
             }
         }
         public bool Alterar(Treino obj)

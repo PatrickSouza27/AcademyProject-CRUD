@@ -92,26 +92,14 @@ namespace KittensSports.View
         }
 */
 
-        private void btnAlterar_Click(object sender, EventArgs e)
-        {
-            bool Alterar(Treino obj)
-            {
-                BancoInstance banco;
-                using (banco = new BancoInstance())
-                {
-                    return banco.Banco.ExecuteNonQuery(
-                        @"update Treino set Nome_Treino=@tcp, Tempo=@temp, Velocidade=@velo, BPM=@bpm, Inclinação=@incli where ",
-                        "@tcp", obj.NomeTreino, "@temp", obj.Tempo, "@velo", obj.Velocidade, "@bpm", obj.BPM, "@incli", obj.Inclinacao);
-                }
-            }
-        }
+ 
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             if (TemEntradasValidas())
             {
 
-                Treino objTreino = new Treino(ttbTreino.Text, ttbTempo.Text, ttbVelocidade.Text, ttbInclinacao.Text, ttbBPM.Text);
+                Treino objTreino = new Treino(ttbTreino.Text, ttbTempo.Text, ttbVelocidade.Text, ttbInclinacao.Text, ttbBPM.Text, guna2ComboBox1.Text);
                 ControllerTreino teste = new ControllerTreino();
                 bool ok = teste.Gravar(objTreino);
 

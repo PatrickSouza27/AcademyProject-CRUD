@@ -10,19 +10,21 @@ namespace KittensSports.Model
         public string BPM { get; private set; }
 
         public string Inclinacao { get; private set; }
+        public string DiaTreino { get; private set; }
 
         public Treino()
         {
 
         }
 
-        public Treino(string nomecp, string tempo, string velocidade, string bpm, string inclinacao)
+        public Treino(string nomecp, string tempo, string velocidade, string bpm, string inclinacao, string diaTreino)
         {
             NomeTreino = nomecp;
             Tempo = tempo;
             Velocidade = velocidade;
             BPM = bpm;
             Inclinacao = inclinacao;
+            DiaTreino = diaTreino;
         }
 
       
