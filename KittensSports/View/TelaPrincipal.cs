@@ -1,5 +1,6 @@
 using Guna.UI2.WinForms;
 using KittensSports.Controller;
+using KittensSports.DAO;
 using KittensSports.View;
 
 namespace KittensSports
@@ -25,6 +26,7 @@ namespace KittensSports
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            guna2Panel5.Visible = true;
             guna2Panel17.Visible = false;
             guna2HtmlLabel8.Visible = false;
             guna2Panel5.Location = new Point(253, 127);
@@ -179,9 +181,33 @@ namespace KittensSports
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+            guna2Panel5.Visible = false;
             guna2Panel17.Visible = true;
             InicioLabel1.Text = "Screen Treino";
             InicioLabel2.Text = " Tela Treino";
+        }
+
+        private void guna2Button18_Click(object sender, EventArgs e)
+        {
+            bool Excluir(int id)
+            {
+                BancoInstance banco;
+                using (banco = new BancoInstance())
+                {
+                    return banco.Banco.ExecuteNonQuery(@"delete from Treino where Id = @param",
+                        "@param", id);
+                }
+            }
+        }
+
+        private void guna2Button26_Click(object sender, EventArgs e)
+        {
+            new TelaCadastroTreinos(false).ShowDialog();
+        }
+
+        private void guna2Button20_Click(object sender, EventArgs e)
+        {
+            new TelaCadastroTreinos(true).ShowDialog();
         }
     }
 }

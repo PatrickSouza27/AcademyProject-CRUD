@@ -8,11 +8,21 @@ namespace KittensSports.View
 {
     public partial class TelaCadastroTreinos : Form
     {
-        public TelaCadastroTreinos()
+        public TelaCadastroTreinos(bool edit)
         {
             InitializeComponent();
             guna2ComboBox1.SelectedItem = "Segunda-Feira";
             guna2ComboBox1.Items.RemoveAt(0);
+            if (edit)
+            {
+                btnAlterar.Visible = true;
+                btnGravar.Visible = false;
+            }
+            else
+            {
+                btnAlterar.Visible = false;
+                btnGravar.Visible = true;
+            }
         }
 
         private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -20,26 +30,7 @@ namespace KittensSports.View
             new TelaConsulta().ShowDialog();
         }
 
-        private void btnGravar_Click(object sender, EventArgs e)
-        {
-
-            if (TemEntradasValidas())
-            {
-   
-                Treino objTreino = new Treino(ttbTreino.Text, ttbTempo.Text, ttbVelocidade.Text, ttbInclinacao.Text, ttbBPM.Text);
-                ControllerTreino teste = new ControllerTreino();
-                bool ok = teste.Gravar(objTreino);
-
-                if (ok)
-                {
-                    MessageBox.Show("Registro inserido com sucesso!");
-                }
-                else
-                MessageBox.Show("Erro ao gravar registro no banco de dados! Tente novamente!");
-
-            }
-            return;
-        }
+       
 
         private bool TemEntradasValidas()
         {
@@ -101,19 +92,6 @@ namespace KittensSports.View
         }
 */
 
-        public void btnExcluir_Click(object sender, EventArgs e)
-        {
-          bool Excluir(int id)
-            {
-                BancoInstance banco;
-                using (banco = new BancoInstance())
-                {
-                    return banco.Banco.ExecuteNonQuery(@"delete from Usuario where Id = @param",
-                        "@param", id);
-                }
-            }
-        }
-
         private void btnAlterar_Click(object sender, EventArgs e)
         {
             bool Alterar(Treino obj)
@@ -128,5 +106,43 @@ namespace KittensSports.View
             }
         }
 
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            if (TemEntradasValidas())
+            {
+
+                Treino objTreino = new Treino(ttbTreino.Text, ttbTempo.Text, ttbVelocidade.Text, ttbInclinacao.Text, ttbBPM.Text);
+                ControllerTreino teste = new ControllerTreino();
+                bool ok = teste.Gravar(objTreino);
+
+                if (ok)
+                {
+                    MessageBox.Show("Registro inserido com sucesso!");
+                }
+                else
+                    MessageBox.Show("Erro ao gravar registro no banco de dados! Tente novamente!");
+
+            }
+            return;
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            bool Alterar(Treino obj)
+            {
+                BancoInstance banco;
+                using (banco = new BancoInstance())
+                {
+                    return banco.Banco.ExecuteNonQuery(
+                        @"update Treino set Nome_Treino=@tcp, Tempo=@temp, Velocidade=@velo, BPM=@bpm, Inclinação=@incli where ",
+                        "@tcp", obj.NomeTreino, "@temp", obj.Tempo, "@velo", obj.Velocidade, "@bpm", obj.BPM, "@incli", obj.Inclinacao);
+                }
+            }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
