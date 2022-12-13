@@ -2,6 +2,7 @@ using Guna.UI2.WinForms;
 using KittensSports.Controller;
 using KittensSports.DAO;
 using KittensSports.View;
+using System.Data;
 
 namespace KittensSports
 {
@@ -11,7 +12,9 @@ namespace KittensSports
         {
             InitializeComponent();
             guna2ComboBox1.SelectedItem = "Todos Treinos";
-
+            DataTable x = new ControllerTreino().BuscarTreino();
+            dataGridView1.DataSource = x;
+           
         }
         public int Cont { get; set; }
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)

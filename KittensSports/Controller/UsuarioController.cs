@@ -1,5 +1,6 @@
 ﻿using KittensSports.DAO;
 using KittensSports.Model;
+using KittensSports.View;
 using System.Data;
 
 namespace KittensSports.Controller
@@ -40,6 +41,16 @@ namespace KittensSports.Controller
                     "@user", user, "@senha", senha);
                 return dt;
             };
+        }
+        public DataTable BuscarUsuariosinfo(string x)
+        {
+            DataTable dt = new DataTable();
+            BancoInstance banco;
+            using (banco = new BancoInstance())
+            {
+                banco.Banco.ExecuteQuery(@"select @tipo from usuario where username = @user", out dt, "@tipo", x, "@user", TelaLogin.UsuarioLogado);
+                return dt;
+            }
         }
 
         public bool Alterar(Usuario obj)

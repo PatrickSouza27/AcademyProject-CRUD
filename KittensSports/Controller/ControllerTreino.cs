@@ -30,6 +30,7 @@ namespace KittensSports.Controller
             }
         }
 
+
         public bool Excluir(int id)
         {
             BancoInstance banco;
@@ -39,13 +40,13 @@ namespace KittensSports.Controller
                     "@param", id);
             }
         }
-        public DataTable BuscarTreino(string chave)
+        public DataTable BuscarTreino()
         {
             BancoInstance banco;
             DataTable retorno = new DataTable();
             using(banco = new BancoInstance())
             {
-                banco.Banco.ExecuteQuery(@"select * from Treino",out retorno);
+                banco.Banco.ExecuteQuery(@"select Nome_treino, Tempo, Velocidade, Bpm, Inclinação from Treino where FK_usuario = @user",out retorno, "@user", TelaLogin.UsuarioLogado);
                 return retorno;
             }
         }
