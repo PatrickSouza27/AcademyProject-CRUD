@@ -382,7 +382,7 @@
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(17, 506);
+            this.guna2Panel1.Size = new System.Drawing.Size(17, 534);
             this.guna2Panel1.TabIndex = 35;
             // 
             // TelaCadastroEditUsuario
@@ -390,7 +390,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(641, 506);
+            this.ClientSize = new System.Drawing.Size(641, 534);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.xxx);

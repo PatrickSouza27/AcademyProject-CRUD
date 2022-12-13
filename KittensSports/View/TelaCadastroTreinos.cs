@@ -1,4 +1,5 @@
-﻿using KittensSports.Controller;
+﻿using Guna.UI2.WinForms;
+using KittensSports.Controller;
 using KittensSports.DAO;
 using KittensSports.Model;
 
@@ -10,6 +11,8 @@ namespace KittensSports.View
         public TelaCadastroTreinos()
         {
             InitializeComponent();
+            guna2ComboBox1.SelectedItem = "Segunda-Feira";
+            guna2ComboBox1.Items.RemoveAt(0);
         }
 
         private void consultarToolStripMenuItem_Click(object sender, EventArgs e)

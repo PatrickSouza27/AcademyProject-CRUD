@@ -180,6 +180,7 @@ namespace KittensSports
             guna2Panel17.Visible = true;
             InicioLabel1.Text = "Screen Treino";
             InicioLabel2.Text = " Tela Treino";
+            guna2ComboBox1.SelectedItem = 0;
         }
     }
 }
