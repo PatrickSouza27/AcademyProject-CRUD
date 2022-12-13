@@ -63,9 +63,10 @@
             this.xxx.BackColor = System.Drawing.Color.Transparent;
             this.xxx.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.xxx.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.xxx.Location = new System.Drawing.Point(72, 27);
+            this.xxx.Location = new System.Drawing.Point(63, 20);
+            this.xxx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xxx.Name = "xxx";
-            this.xxx.Size = new System.Drawing.Size(239, 47);
+            this.xxx.Size = new System.Drawing.Size(200, 39);
             this.xxx.TabIndex = 14;
             this.xxx.Text = "Register Treino";
             // 
@@ -74,8 +75,9 @@
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(19, 712);
+            this.guna2Panel1.Size = new System.Drawing.Size(17, 534);
             this.guna2Panel1.TabIndex = 36;
             // 
             // guna2GradientPanel2
@@ -98,10 +100,9 @@
             this.guna2GradientPanel2.Controls.Add(this.ttbTreino);
             this.guna2GradientPanel2.Controls.Add(this.ttbTempo);
             this.guna2GradientPanel2.Controls.Add(this.ttbVelocidade);
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(72, 85);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(63, 64);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(570, 549);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(499, 412);
             this.guna2GradientPanel2.TabIndex = 37;
             // 
             // btnAlterar
@@ -120,9 +121,10 @@
             this.btnAlterar.HoverState.FillColor = System.Drawing.Color.BlueViolet;
             this.btnAlterar.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterar.Image")));
             this.btnAlterar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnAlterar.Location = new System.Drawing.Point(418, 485);
+            this.btnAlterar.Location = new System.Drawing.Point(366, 364);
+            this.btnAlterar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(110, 35);
+            this.btnAlterar.Size = new System.Drawing.Size(96, 26);
             this.btnAlterar.TabIndex = 42;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -133,9 +135,10 @@
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(123, 80);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(108, 60);
+            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(84, 22);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(67, 17);
             this.guna2HtmlLabel6.TabIndex = 41;
             this.guna2HtmlLabel6.Text = "Day Trainer";
             // 
@@ -161,10 +164,9 @@
             "Sexta-Feira",
             "Sabado",
             "Domingo"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(117, 107);
-            this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(102, 80);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(333, 36);
+            this.guna2ComboBox1.Size = new System.Drawing.Size(292, 36);
             this.guna2ComboBox1.TabIndex = 40;
             this.guna2ComboBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -173,9 +175,10 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel5.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(301, 232);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(263, 174);
+            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(73, 22);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(58, 17);
             this.guna2HtmlLabel5.TabIndex = 38;
             this.guna2HtmlLabel5.Text = "Inclinação";
             // 
@@ -185,11 +188,10 @@
             this.ttbInclinacao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ttbInclinacao.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.ttbInclinacao.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ttbInclinacao.Location = new System.Drawing.Point(294, 255);
-            this.ttbInclinacao.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ttbInclinacao.Location = new System.Drawing.Point(257, 191);
             this.ttbInclinacao.Name = "ttbInclinacao";
             this.ttbInclinacao.PlaceholderText = "-------";
-            this.ttbInclinacao.Size = new System.Drawing.Size(156, 34);
+            this.ttbInclinacao.Size = new System.Drawing.Size(137, 29);
             this.ttbInclinacao.TabIndex = 39;
             this.ttbInclinacao.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -209,9 +211,10 @@
             this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button2.Location = new System.Drawing.Point(302, 485);
+            this.guna2Button2.Location = new System.Drawing.Point(264, 364);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(110, 35);
+            this.guna2Button2.Size = new System.Drawing.Size(96, 26);
             this.guna2Button2.TabIndex = 34;
             this.guna2Button2.Text = "Limpar";
             this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -233,9 +236,10 @@
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Cyan;
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button1.Location = new System.Drawing.Point(46, 485);
+            this.guna2Button1.Location = new System.Drawing.Point(40, 364);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(90, 35);
+            this.guna2Button1.Size = new System.Drawing.Size(79, 26);
             this.guna2Button1.TabIndex = 33;
             this.guna2Button1.Text = "Voltar";
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -257,9 +261,10 @@
             this.btnGravar.HoverState.FillColor = System.Drawing.Color.Lime;
             this.btnGravar.Image = ((System.Drawing.Image)(resources.GetObject("btnGravar.Image")));
             this.btnGravar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnGravar.Location = new System.Drawing.Point(418, 485);
+            this.btnGravar.Location = new System.Drawing.Point(366, 364);
+            this.btnGravar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGravar.Name = "btnGravar";
-            this.btnGravar.Size = new System.Drawing.Size(110, 35);
+            this.btnGravar.Size = new System.Drawing.Size(96, 26);
             this.btnGravar.TabIndex = 32;
             this.btnGravar.Text = "Gravar";
             this.btnGravar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -270,9 +275,10 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(119, 375);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(104, 282);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(142, 22);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(113, 17);
             this.guna2HtmlLabel2.TabIndex = 31;
             this.guna2HtmlLabel2.Text = "Frequência Cardíaca";
             // 
@@ -282,11 +288,10 @@
             this.ttbBPM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ttbBPM.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.ttbBPM.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ttbBPM.Location = new System.Drawing.Point(119, 404);
-            this.ttbBPM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ttbBPM.Location = new System.Drawing.Point(104, 303);
             this.ttbBPM.Name = "ttbBPM";
             this.ttbBPM.PlaceholderText = "Bpm";
-            this.ttbBPM.Size = new System.Drawing.Size(331, 34);
+            this.ttbBPM.Size = new System.Drawing.Size(290, 29);
             this.ttbBPM.TabIndex = 29;
             this.ttbBPM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -300,9 +305,10 @@
             this.guna2Button13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2Button13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button13.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button13.Image")));
-            this.guna2Button13.Location = new System.Drawing.Point(414, 189);
+            this.guna2Button13.Location = new System.Drawing.Point(362, 142);
+            this.guna2Button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button13.Name = "guna2Button13";
-            this.guna2Button13.Size = new System.Drawing.Size(33, 29);
+            this.guna2Button13.Size = new System.Drawing.Size(29, 22);
             this.guna2Button13.TabIndex = 14;
             // 
             // guna2HtmlLabel4
@@ -310,9 +316,10 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(119, 163);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(104, 121);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(95, 22);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(76, 17);
             this.guna2HtmlLabel4.TabIndex = 22;
             this.guna2HtmlLabel4.Text = "Nome Treino";
             // 
@@ -321,9 +328,10 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(119, 300);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(104, 226);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(79, 22);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(64, 17);
             this.guna2HtmlLabel3.TabIndex = 21;
             this.guna2HtmlLabel3.Text = "Velocidade";
             // 
@@ -332,9 +340,10 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(119, 231);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(104, 172);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(52, 22);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(42, 17);
             this.guna2HtmlLabel1.TabIndex = 20;
             this.guna2HtmlLabel1.Text = "Tempo";
             // 
@@ -344,11 +353,10 @@
             this.ttbTreino.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ttbTreino.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.ttbTreino.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ttbTreino.Location = new System.Drawing.Point(119, 185);
-            this.ttbTreino.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ttbTreino.Location = new System.Drawing.Point(104, 139);
             this.ttbTreino.Name = "ttbTreino";
             this.ttbTreino.PlaceholderText = "Nome Treino {User}";
-            this.ttbTreino.Size = new System.Drawing.Size(331, 34);
+            this.ttbTreino.Size = new System.Drawing.Size(290, 29);
             this.ttbTreino.TabIndex = 26;
             this.ttbTreino.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -358,11 +366,10 @@
             this.ttbTempo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ttbTempo.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.ttbTempo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ttbTempo.Location = new System.Drawing.Point(119, 255);
-            this.ttbTempo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ttbTempo.Location = new System.Drawing.Point(104, 191);
             this.ttbTempo.Name = "ttbTempo";
             this.ttbTempo.PlaceholderText = "00:00";
-            this.ttbTempo.Size = new System.Drawing.Size(167, 34);
+            this.ttbTempo.Size = new System.Drawing.Size(146, 29);
             this.ttbTempo.TabIndex = 27;
             this.ttbTempo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -372,26 +379,24 @@
             this.ttbVelocidade.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ttbVelocidade.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.ttbVelocidade.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ttbVelocidade.Location = new System.Drawing.Point(119, 329);
-            this.ttbVelocidade.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ttbVelocidade.Location = new System.Drawing.Point(104, 247);
             this.ttbVelocidade.Name = "ttbVelocidade";
             this.ttbVelocidade.PlaceholderText = "00:00:00";
-            this.ttbVelocidade.Size = new System.Drawing.Size(331, 34);
+            this.ttbVelocidade.Size = new System.Drawing.Size(290, 29);
             this.ttbVelocidade.TabIndex = 28;
             this.ttbVelocidade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TelaCadastroTreinos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(733, 712);
+            this.ClientSize = new System.Drawing.Size(641, 534);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.xxx);
             this.Controls.Add(this.guna2GradientPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "TelaCadastroTreinos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaCadastroTreinos";

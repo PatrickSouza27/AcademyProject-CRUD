@@ -54,6 +54,9 @@ namespace KittensSports
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            guna2HtmlLabel7.Text = TelaLogin.UsuarioLogado;
+            guna2HtmlLabel5.Text = Data("fullName");
+            guna2HtmlLabel6.Text = Data("email");
             guna2Panel5.Visible = true;
             guna2Panel17.Visible = false;
             guna2HtmlLabel8.Visible = false;
@@ -168,6 +171,10 @@ namespace KittensSports
                     usuario.Excluir(TelaLogin.UsuarioLogado);
                     MessageBox.Show("Usuario Excluido com sucesso");
                 }
+                else
+                {
+                    return;
+                }
             }
             catch
             {
@@ -209,15 +216,16 @@ namespace KittensSports
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+            guna2Panel4.Visible = false;
+            guna2GradientPanel1.Visible = false;
+            guna2Panel3.Visible = false;
             guna2Panel5.Visible = false;
             guna2Panel17.Visible = true;
             InicioLabel1.Text = "Screen Treino";
             InicioLabel2.Text = " Tela Treino";
-            guna2Panel17.Location = new Point(289, 168);
-            guna2Panel17.Size = new Size(662, 517);
-            guna2HtmlLabel7.Text = TelaLogin.UsuarioLogado;
-            guna2HtmlLabel5.Text = Data("fullName");
-            guna2HtmlLabel6.Text = Data("email");
+            guna2Panel17.Location = new Point(253, 131);
+            guna2Panel17.Size = new Size(579, 385);
+           
         }
 
         private void guna2Button18_Click(object sender, EventArgs e)
