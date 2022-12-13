@@ -50,6 +50,16 @@ namespace KittensSports.Controller
                 return retorno;
             }
         }
+        public DataTable BuscarTreinoDay(string dia)
+        {
+            BancoInstance banco;
+            DataTable retorno = new DataTable();
+            using (banco = new BancoInstance())
+            {
+                banco.Banco.ExecuteQuery(@"select Nome_treino, Tempo, Velocidade, Bpm, Inclinação from Treino where FK_usuario = @user and DiaGrupo = @dia", out retorno, "@user", TelaLogin.UsuarioLogado, "@dia", dia);
+                return retorno;
+            }
+        }
         public DataTable BuscarTreinoEspecifico(string chave)
         {
             BancoInstance banco;

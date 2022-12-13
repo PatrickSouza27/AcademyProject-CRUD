@@ -107,6 +107,7 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2NotificationPaint1 = new Guna.UI2.WinForms.Guna2NotificationPaint(this.components);
             this.controllerTreinoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.guna2Button21 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
             this.guna2Panel10.SuspendLayout();
@@ -544,6 +545,7 @@
             // 
             this.guna2Panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
             this.guna2Panel17.BorderRadius = 20;
+            this.guna2Panel17.Controls.Add(this.guna2Button21);
             this.guna2Panel17.Controls.Add(this.dataGridView1);
             this.guna2Panel17.Controls.Add(this.guna2Button20);
             this.guna2Panel17.Controls.Add(this.guna2Button18);
@@ -596,7 +598,7 @@
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.RowHeadersWidth = 23;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(584, 353);
+            this.dataGridView1.Size = new System.Drawing.Size(584, 313);
             this.dataGridView1.TabIndex = 0;
             // 
             // guna2Button20
@@ -1223,6 +1225,27 @@
             // 
             this.controllerTreinoBindingSource.DataSource = typeof(KittensSports.Controller.ControllerTreino);
             // 
+            // guna2Button21
+            // 
+            this.guna2Button21.BorderRadius = 10;
+            this.guna2Button21.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button21.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button21.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button21.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.guna2Button21.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2Button21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.guna2Button21.HoverState.FillColor = System.Drawing.Color.Lime;
+            this.guna2Button21.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button21.Image")));
+            this.guna2Button21.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button21.Location = new System.Drawing.Point(275, 470);
+            this.guna2Button21.Name = "guna2Button21";
+            this.guna2Button21.Size = new System.Drawing.Size(110, 35);
+            this.guna2Button21.TabIndex = 27;
+            this.guna2Button21.Text = "Atualizar";
+            this.guna2Button21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button21.Click += new System.EventHandler(this.guna2Button21_Click);
+            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -1351,5 +1374,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button18;
         private BindingSource controllerTreinoBindingSource;
         private DataGridView dataGridView1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button21;
     }
 }

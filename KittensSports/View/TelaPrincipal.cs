@@ -3,6 +3,7 @@ using KittensSports.Controller;
 using KittensSports.DAO;
 using KittensSports.View;
 using System.Data;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace KittensSports
 {
@@ -14,7 +15,7 @@ namespace KittensSports
             guna2ComboBox1.SelectedItem = "Todos Treinos";
             DataTable x = new ControllerTreino().BuscarTreino();
             dataGridView1.DataSource = x;
-           
+
         }
         public int Cont { get; set; }
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -211,6 +212,19 @@ namespace KittensSports
         private void guna2Button20_Click(object sender, EventArgs e)
         {
             new TelaCadastroTreinos(true).ShowDialog();
+        }
+
+        private void guna2Button21_Click(object sender, EventArgs e)
+        {
+            if (guna2ComboBox1.Text == "Todos Treinos") {
+                DataTable x = new ControllerTreino().BuscarTreino();
+                dataGridView1.DataSource = x;
+            }
+            else
+            {
+                DataTable x = new ControllerTreino().BuscarTreinoDay(guna2ComboBox1.Text);
+                dataGridView1.DataSource = x;
+            }
         }
     }
 }
