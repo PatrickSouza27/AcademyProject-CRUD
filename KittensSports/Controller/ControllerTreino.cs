@@ -48,5 +48,15 @@ namespace KittensSports.Controller
                 return retorno;
             }
         }
+        public DataTable BuscarTreinoEspecifico(string chave)
+        {
+            BancoInstance banco;
+            DataTable retorno = new DataTable();
+            using (banco = new BancoInstance())
+            {
+                banco.Banco.ExecuteQuery(@"select * from Treino where fk_treino = @user", out retorno);
+                return retorno;
+            }
+        }
     }
 }

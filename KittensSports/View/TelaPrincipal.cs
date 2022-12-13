@@ -23,7 +23,7 @@ namespace KittensSports
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            
+            guna2Panel17.Visible = false;
             guna2HtmlLabel8.Visible = false;
             guna2Panel5.Location = new Point(253, 127);
             guna2Panel5.Size = new Size(571, 387);
@@ -38,6 +38,7 @@ namespace KittensSports
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
+            guna2Panel17.Visible = false;
             Cont = 0;
             guna2HtmlLabel8.Visible = false;
             guna2Panel5.Visible= false;
@@ -172,6 +173,13 @@ namespace KittensSports
         private void guna2Panel9_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            guna2Panel17.Visible = true;
+            InicioLabel1.Text = "Screen Treino";
+            InicioLabel2.Text = " Tela Treino";
         }
     }
 }
