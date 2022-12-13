@@ -146,7 +146,7 @@
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(113, 46);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(108, 60);
             this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(67, 17);
@@ -175,7 +175,7 @@
             "Sexta-Feira",
             "Sabado",
             "Domingo"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(102, 69);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(102, 80);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(292, 36);
             this.guna2ComboBox1.TabIndex = 40;

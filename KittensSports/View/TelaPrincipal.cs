@@ -9,6 +9,8 @@ namespace KittensSports
         public TelaPrincipal()
         {
             InitializeComponent();
+            guna2ComboBox1.SelectedItem = "Todos Treinos";
+
         }
         public int Cont { get; set; }
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -180,7 +182,6 @@ namespace KittensSports
             guna2Panel17.Visible = true;
             InicioLabel1.Text = "Screen Treino";
             InicioLabel2.Text = " Tela Treino";
-            guna2ComboBox1.SelectedItem = 0;
         }
     }
 }
