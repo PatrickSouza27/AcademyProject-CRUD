@@ -16,7 +16,7 @@ namespace KittensSports
             DataTable x = new ControllerTreino().BuscarTreino();
             dataGridView1.DataSource = x;
             guna2HtmlLabel2.Text = Data("username");
-            InicioLabel1.Text = "Hi {" + Data("fullName") + " }";
+            InicioLabel1.Text = "Hi { " + Data("fullName") + " }";
 
 
         }
@@ -74,7 +74,7 @@ namespace KittensSports
             Cont = 0;
             guna2HtmlLabel8.Visible = false;
             guna2Panel5.Visible= false;
-            InicioLabel1.Text = "Hi {" + Data("fullName") + " }";
+            InicioLabel1.Text = "Hi { " + Data("fullName") + " }";
             InicioLabel2.Text = " Welcome Back";
             //--------------painel principal------
             guna2Panel3.Visible = true;
