@@ -31,12 +31,12 @@ namespace KittensSports.Controller
         }
 
 
-        public bool Excluir(int id)
+        public bool Excluir(string id)
         {
             BancoInstance banco;
             using (banco = new BancoInstance())
             {
-                return banco.Banco.ExecuteNonQuery(@"delete from Usuario where Id = @param",
+                return banco.Banco.ExecuteNonQuery(@"delete from Treino where Nome_treino = @param",
                     "@param", id);
             }
         }

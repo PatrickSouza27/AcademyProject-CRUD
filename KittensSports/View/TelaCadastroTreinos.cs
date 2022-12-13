@@ -11,7 +11,7 @@ namespace KittensSports.View
         public TelaCadastroTreinos(bool edit)
         {
             InitializeComponent();
-            guna2ComboBox1.SelectedItem = "Segunda-Feira";
+            guna2ComboBox1.SelectedItem = "Terça-Feira";
             guna2ComboBox1.Items.RemoveAt(0);
             if (edit)
             {
@@ -106,6 +106,7 @@ namespace KittensSports.View
                 if (ok)
                 {
                     MessageBox.Show("Registro inserido com sucesso!");
+                    this.Close();
                 }
                 else
                     MessageBox.Show("Erro ao gravar registro no banco de dados! Tente novamente!");
@@ -116,21 +117,22 @@ namespace KittensSports.View
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            bool Alterar(Treino obj)
-            {
-                BancoInstance banco;
-                using (banco = new BancoInstance())
-                {
-                    return banco.Banco.ExecuteNonQuery(
-                        @"update Treino set Nome_Treino=@tcp, Tempo=@temp, Velocidade=@velo, BPM=@bpm, Inclinação=@incli where ",
-                        "@tcp", obj.NomeTreino, "@temp", obj.Tempo, "@velo", obj.Velocidade, "@bpm", obj.BPM, "@incli", obj.Inclinacao);
-                }
-            }
+
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            ttbTreino.Clear();
+            ttbTempo.Clear();
+            ttbVelocidade.Clear();
+            ttbInclinacao.Clear();
+            ttbBPM.Clear();
+            guna2ComboBox1.SelectedItem = "Terça-Feira";
         }
     }
 }

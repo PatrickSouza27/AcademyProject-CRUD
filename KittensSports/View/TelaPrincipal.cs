@@ -15,7 +15,31 @@ namespace KittensSports
             guna2ComboBox1.SelectedItem = "Todos Treinos";
             DataTable x = new ControllerTreino().BuscarTreino();
             dataGridView1.DataSource = x;
+            guna2HtmlLabel2.Text = Data("username");
+            InicioLabel1.Text = "Hi {" + Data("fullName") + " }";
 
+
+        }
+        public static string Data(string pegar)
+        {
+            DataTable dtResultado = new UsuarioController().BuscarUsuarios();
+            if (dtResultado.Rows.Count > 0)
+            {
+                DataTable dt = new UsuarioController().BuscaLogin(TelaLogin.UsuarioLogado, TelaLogin.Senha);
+                if (pegar == "fullName")
+                {
+                    return dt.Rows[0].ItemArray[2].ToString();
+                }
+                if (pegar == "username")
+                {
+                    return dt.Rows[0].ItemArray[0].ToString();
+                }
+                if (pegar == "email")
+                {
+                    return dt.Rows[0].ItemArray[3].ToString();
+                }
+            }
+            return "0";
         }
         public int Cont { get; set; }
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -50,7 +74,7 @@ namespace KittensSports
             Cont = 0;
             guna2HtmlLabel8.Visible = false;
             guna2Panel5.Visible= false;
-            InicioLabel1.Text = "Hi {Nome},";
+            InicioLabel1.Text = "Hi {" + Data("fullName") + " }";
             InicioLabel2.Text = " Welcome Back";
             //--------------painel principal------
             guna2Panel3.Visible = true;
@@ -189,20 +213,42 @@ namespace KittensSports
             guna2Panel17.Visible = true;
             InicioLabel1.Text = "Screen Treino";
             InicioLabel2.Text = " Tela Treino";
+            guna2Panel17.Location = new Point(289, 168);
+            guna2Panel17.Size = new Size(662, 517);
+            guna2HtmlLabel7.Text = TelaLogin.UsuarioLogado;
+            guna2HtmlLabel5.Text = Data("fullName");
+            guna2HtmlLabel6.Text = Data("email");
         }
 
         private void guna2Button18_Click(object sender, EventArgs e)
         {
-            bool Excluir(int id)
+            if (dataGridView1.CurrentRow.Cells != null)
             {
-                BancoInstance banco;
-                using (banco = new BancoInstance())
+                string nome = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+
+                //Gerando uma mensagem para confirmação do usuário
+                if (MessageBox.Show("Atenção", "Tem certeza que deseha excluir essa informação?", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) ==
+                    DialogResult.Yes)
                 {
-                    return banco.Banco.ExecuteNonQuery(@"delete from Treino where Id = @param",
-                        "@param", id);
+                    if (new ControllerTreino().Excluir(nome))
+                        MessageBox.Show("Registro excluído com sucesso!");
+                    else
+                        MessageBox.Show("Erro ao excluir o registro!");
+                }
+                //Após exclusão, atualizar o dataGrid
+                if (guna2ComboBox1.Text == "Todos Treinos")
+                {
+                    DataTable x = new ControllerTreino().BuscarTreino();
+                    dataGridView1.DataSource = x;
+                }
+                else
+                {
+                    DataTable x = new ControllerTreino().BuscarTreinoDay(guna2ComboBox1.Text);
+                    dataGridView1.DataSource = x;
                 }
             }
         }
+    
 
         private void guna2Button26_Click(object sender, EventArgs e)
         {
@@ -211,6 +257,7 @@ namespace KittensSports
 
         private void guna2Button20_Click(object sender, EventArgs e)
         {
+            //btnEditar
             new TelaCadastroTreinos(true).ShowDialog();
         }
 

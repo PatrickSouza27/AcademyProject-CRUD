@@ -42,13 +42,13 @@ namespace KittensSports.Controller
                 return dt;
             };
         }
-        public DataTable BuscarUsuariosinfo(string x)
+        public DataTable BuscarUsuariosinfo()
         {
             DataTable dt = new DataTable();
             BancoInstance banco;
             using (banco = new BancoInstance())
             {
-                banco.Banco.ExecuteQuery(@"select @tipo from usuario where username = @user", out dt, "@tipo", x, "@user", TelaLogin.UsuarioLogado);
+                banco.Banco.ExecuteQuery(@"select * from usuario where username = @user", out dt, "@user", TelaLogin.UsuarioLogado);
                 return dt;
             }
         }
