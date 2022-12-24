@@ -25,13 +25,6 @@ namespace KittensSports.View
             }
         }
 
-        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new TelaConsulta().ShowDialog();
-        }
-
-       
-
         private bool TemEntradasValidas()
         {
             List<string> listaErros = new List<string>();
