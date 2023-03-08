@@ -11,7 +11,6 @@ SQL SERVER 2019<br>
 .Net --version 6.0<br>
 Guna.UI2 Framework --version 2.0.2.3</p>
 
---
 <h2>
 Login Screen <img src="https://media.giphy.com/media/RHEqKwRZDwFKE/giphy.gif" width="50"></h2>
 <p>Caso não tenha nenhum Usuario cadastrado no banco, a chave de acesso é "admin" / password "1234"</p>
